@@ -1,0 +1,43 @@
+Project Name: NightWatch
+
+Systems:
+Magic
+  Base spells are single element. Offers greater damage (for greater cost?) by mixing.
+  Mix elements
+    Ex: Mix 2 fire + 1 wind = fireball
+    Ex: Mix 2 fire + 1 earth = scorched earth
+          Elements: earth, wind, fire, water, light, dark, acid, lightning, arcane, life, death, primal, chaos
+  
+
+Campaign-based
+  Individual battles
+  Set length (chosen at start or dynamic?)
+  DM or game generated(?)
+
+
+Character
+  Level 1 Peon
+  Archtypes and sub-archtypes develop as experience(?) and skill points(?) are invested into character
+  Possible class names:
+    Peon, Spellcaster, Wizard, Necromancer, Illusionist
+  No chosen class, class-name evolves
+  Earns skill points on leveling(?)
+  Cracking locks (minor), Negotiations (persuading, intimidating), Exploring
+
+
+Abilities
+  Skill points spent allows abilities to be learned and upgraded(?)
+  Limited passive ability slots (same for active?)
+  Separate abilities into skill sets
+    Weapon Class, Spell Casting Class, MOAR (skyrim-esque)
+      These can grant passives and also active abilities
+      Trees
+
+
+Item
+  Crafting
+    Being able to craft items of importance, not gimped
+  Using an item for a certain amount of time allows you to earn an ability from it
+    As character earns experience, item gains experience
+    Ex: Poison Resist 15% on item, can be learned as passive ability once used long enough on an item that has it.
+  Lock item set once in combat
