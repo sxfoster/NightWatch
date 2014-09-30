@@ -1,18 +1,10 @@
 Project Name: NightWatch
 
 Systems:
-Magic
-  Base spells are single element. Offers greater damage (for greater cost?) by mixing.
-  Mix elements
-    Ex: Mix 2 fire + 1 wind = fireball
-    Ex: Mix 2 fire + 1 earth = scorched earth
-          Elements: earth, wind, fire, water, light, dark, acid, lightning, arcane, life, death, primal, chaos
+
   
 
-Campaign-based
-  Individual battles
-  Set length (chosen at start or dynamic?)
-  DM or game generated(?)
+
 
 
 Character
