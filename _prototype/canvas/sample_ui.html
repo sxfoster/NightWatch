@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>Canvas UI Prototype</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/three.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <style>
+      .ui-wrapper{width:1024px;height:768px;margin:0 auto;position:relative;}
+      .ui-inner-wrapper{width:1024px;height:768px;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);}
+      .user-name{position:absolute;top:40px;left:170px;width:100px;height:20px;}
+    </style>
+  </head>
+  <body>
+    <div class="ui-wrapper">
+      <div class="ui-inner-wrapper">
+        <canvas id="defaultui" height="768" width="1024"></canvas>
+      </div>
+    </div>
+    <script type="text/javascript">
+      var c=document.getElementById("defaultui");
+      var ctx=c.getContext("2d");
+      //draw rectangles offsetting by 40 pixels
+      ctx.beginPath();
+      ctx.strokeStyle="#000000";
+      ctx.font="20px Arial";
+      ctx.fillText("Enter your name:",10,57);
+      ctx.rect(170,40,100,20);
+      ctx.stroke(); 
+      //bind a click event
+       $("#defaultui").click(function(e){
+          //verifies click was in the first rectangle
+          if(e.clientX > 610 && e.clientX < 710 && e.clientY > 47 && e.clientY < 67) {
+            //creates a text field and positions it over the canvas section
+            $('<input type="text" name="userName" class="user-name">' ).appendTo('div.ui-inner-wrapper');
+          }
+          console.log(e.clientX);
+          console.log(e.clientY);
+        }); 
+    </script>
+  </body>
+</html>
